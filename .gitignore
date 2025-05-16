@@ -1,5 +1,6 @@
 # Python
 __pycache__/
+rust_math/target/*
 *.py[cod]
 *$py.class
 *.so

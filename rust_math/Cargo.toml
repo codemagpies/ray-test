@@ -1,0 +1,16 @@
+[package]
+name = "rust_math"
+version = "0.1.0"
+edition = "2021"
+description = "A simple math library written in Rust"
+authors = ["Your Name <your.email@example.com>"]
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.21", features = ["extension-module"] }
+
+[package.metadata.maturin]
+name = "rust_math"
