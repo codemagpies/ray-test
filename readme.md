@@ -23,7 +23,7 @@ pip install ray
 
 3. 프로젝트 빌드 및 설치:
 ```bash
-# 프로젝트 루트 디렉토리에서
+cd rust_math
 maturin develop
 ```
 
